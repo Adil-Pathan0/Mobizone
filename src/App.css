@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-image: linear-gradient(to top, black 20%, lightskyblue);
+}
+
+.navbar-brand {
+  font-style: italic;
+  color: white;
+  font-weight: 700;
+}
+
+.navbar-brand span {
+  color: cyan;
+}
+
+.carousel-item {
+  /* width: 100%; */
+  height: 700px;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  /* width: 100%; */
+  height: 100%;
+  object-fit: contain;
+}
+
+.offcard img {
+  max-height: 150px;
+}
+
+.topbrands {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  max-width: 100px;
+  /* background-color: white; */
+  margin: 10px 3px;
+  padding-top: 5px;
+}
+
+.collection {
+  padding: 10px 0px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.cardimg {
+  height: 200px;
+  object-fit: cover;
+}
+
+.error404 {
+  height: 85vh;
+  width: 100%;
+}
+
+.errortext {
+  text-align: center;
+  display: grid;
+  place-content: center;
+}
+
+.errortext button {
+  border: 2px solid black;
+}
+
+.wholefooter {
+  background: linear-gradient(to bottom, black 20%, rgb(27, 78, 109));
+}
+
+.footpara p {
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  text-align: center;
+  padding: 10px;
+}
+
+.address p {
+  margin: 0;
+}
+
+.aside {
+  border-right: 1px solid black;
+}
+
+aside button {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 50px;
+  transition-duration: 0.5s;
+}
+
+aside button:hover {
+  background-color: navy;
+  color: gold;
+}
+
+.pimg:hover{
+  transform: rotateY(180deg)
+}
