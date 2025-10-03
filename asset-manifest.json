@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Mobizone/static/css/main.0a6fdcfe.css",
+    "main.js": "/Mobizone/static/js/main.7ca6edeb.js",
+    "static/js/453.dc0532f9.chunk.js": "/Mobizone/static/js/453.dc0532f9.chunk.js",
+    "static/media/error404.gif": "/Mobizone/static/media/error404.981a7a5f1e6524dab2e3.gif",
+    "static/media/vector.jpg": "/Mobizone/static/media/vector.7910f3de904c27a2b613.jpg",
+    "static/media/bootstrap-icons.woff?": "/Mobizone/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/Mobizone/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/carouselSamsung.webp": "/Mobizone/static/media/carouselSamsung.c838f62d4f41b14c55a1.webp",
+    "static/media/carouselNothing.webp": "/Mobizone/static/media/carouselNothing.9edef1191a202ba23073.webp",
+    "static/media/RealmeLogo.jpg": "/Mobizone/static/media/RealmeLogo.2639532a933b610b4080.jpg",
+    "static/media/carouselRealme.webp": "/Mobizone/static/media/carouselRealme.bd35a06b2478418cbf45.webp",
+    "static/media/SamsungLogo.png": "/Mobizone/static/media/SamsungLogo.2b041927e6164c0d0e0f.png",
+    "static/media/carouselApple.webp": "/Mobizone/static/media/carouselApple.65f9d6bf43beff18b3a5.webp",
+    "static/media/AppleLogo.png": "/Mobizone/static/media/AppleLogo.9cff331e2293a1994af6.png",
+    "index.html": "/Mobizone/index.html",
+    "main.0a6fdcfe.css.map": "/Mobizone/static/css/main.0a6fdcfe.css.map",
+    "main.7ca6edeb.js.map": "/Mobizone/static/js/main.7ca6edeb.js.map",
+    "453.dc0532f9.chunk.js.map": "/Mobizone/static/js/453.dc0532f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a6fdcfe.css",
+    "static/js/main.7ca6edeb.js"
+  ]
+}
