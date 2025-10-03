@@ -14,11 +14,11 @@ function App() {
   return (
     <div >
       <loginstatus.Provider value={[login, setlogin]}>
-      <Header />
-      <Routing/>
-      <Footer />
+        <Header />
+        <Routing />
+        <Footer />
       </loginstatus.Provider>
-      
+
     </div>
   )
 }
