@@ -8,7 +8,7 @@ const Collection = () => {
     const [company, setcompany] = useState('')
 
     useEffect(() => {
-        axios.get(`http://localhost:5000/mobileData`)
+        axios.get(`https://adil-pathan0.github.io/host-api/mobizone.json`)
             .then((res) => {
                 if (company === '') {
                     setprducts(res.data)
