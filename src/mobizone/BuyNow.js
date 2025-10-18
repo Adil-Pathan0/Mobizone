@@ -8,7 +8,7 @@ const BuyNow = () => {
     const { id } = useParams()
 
     useEffect(() => {
-        axios.get(`http://localhost:5000/mobileData/${id}`)
+        axios.get(`https://mobizone-json-api.onrender.com/mobileData/${id}`)
             .then((res) => {
                 setproduct(res.data)
             })

@@ -13,7 +13,7 @@ const AddCollection = () => {
         A.preventDefault()
         console.log(product);
 
-        axios.post(`http://localhost:5000/mobileData`, product)
+        axios.post(`https://mobizone-json-api.onrender.com/mobileData`, product)
             .then(() => {
                 setProduct ({ name: '', price: '', image: '' })
                 alert(`Product Added`)

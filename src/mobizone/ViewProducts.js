@@ -14,7 +14,7 @@ const Viewproducts = () => {
             .catch((err) => console.log(err))
     })
     const deleteproduct = (pid)=>{
-        axios.delete(`http://localhost:5000/mobileData/${pid}`)
+        axios.delete(`https://mobizone-json-api.onrender.com/mobileData/${pid}`)
         .then(()=> alert(`Product Deleted`))
         .catch((err)=> console.error(err))
     }
