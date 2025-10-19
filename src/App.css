@@ -110,3 +110,9 @@ aside button:hover {
 .pimg:hover{
   transform: rotateY(180deg)
 }
+
+.dash{
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+}

@@ -14,7 +14,6 @@ const AdminLogin = () => {
 
     const submitHandler = ((e) => {
         e.preventDefault()
-        console.log(detail);
         const { email, password } = detail
         if (email === 'mobizone@admin.com' && password === 'admin') {
             setlogin(true)

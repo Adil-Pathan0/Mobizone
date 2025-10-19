@@ -7,8 +7,8 @@ const Dashboard = () => {
     const [login, setlogin] = useContext(loginstatus)
     const navigate = useNavigate()
 
-    useEffect(()=>{
-        if(login === false){
+    useEffect(() => {
+        if (login === false) {
             navigate('/admin')
         }
     }, [login])
@@ -17,7 +17,7 @@ const Dashboard = () => {
             <section className='container-fluid  my-5 shadow'>
                 <div className='row'>
                     <div className='col-lg-3 '>
-                        <aside className='text-center aside p-3'>
+                        <aside className='text-center dash aside p-3'>
                             <Link to={''}>
                                 <h4>Admin's Dashboard</h4>
                             </Link>
@@ -27,8 +27,10 @@ const Dashboard = () => {
                             <Link to={"viewproducts"}>
                                 <button className=' border border-dark rounded p-2'>View Product's</button>
                             </Link>
-                            <button className=' border border-dark rounded p-2'>View Enquiries</button>
-                            <button onClick={()=> setlogin(false)} className='border border-dark rounded p-2'>Logout</button>
+                            <Link to={"enquiry"}>
+                                <button className=' border border-dark rounded p-2'>View Enquiries</button>
+                            </Link>
+                            <button onClick={() => setlogin(false)} className='border border-dark rounded p-2'>Logout</button>
                         </aside>
                     </div>
                     <div className='col-lg-9'>

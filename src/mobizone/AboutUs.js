@@ -1,6 +1,7 @@
 import React from "react";
 import vector from './assets/vector.jpg'
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import { Link } from "react-router-dom";
 
 
 export default function AboutUs() {
@@ -28,15 +29,17 @@ export default function AboutUs() {
                         <button className="btn btn-primary m-2">
                             <i className="bi bi-twitter"></i>
                         </button>
-                        <button className="btn btn-primary m-2">
-                            <i className="bi bi-instagram "></i>
-                        </button>
+                        <Link to={"https://www.instagram.com/adil_khan_7227?igsh=d3poNm90eHNhbjM3"}>
+                            <button className="btn btn-primary m-2">
+                                <i className="bi bi-instagram "></i>
+                            </button>
+                        </Link>
                     </div>
                 </div>
                 <div className="col-md-6 text-center">
                     <img src={vector} alt="About Us" className="img-fluid rounded shadow" />
                 </div>
             </div>
-        </div>
+        </div >
     );
 }

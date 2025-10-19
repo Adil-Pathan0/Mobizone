@@ -6,6 +6,7 @@ import Footer from './mobizone/Footer';
 import Routing from './mobizone/Routing';
 import Dashboard from './mobizone/Admin/Dashboard';
 import { createContext, useState } from 'react';
+import ViewEnquiries from './mobizone/Admin/ViewEnquiries';
 
 export const loginstatus = createContext()
 
@@ -18,7 +19,6 @@ function App() {
         <Routing />
         <Footer />
       </loginstatus.Provider>
-
     </div>
   )
 }

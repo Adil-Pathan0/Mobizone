@@ -7,16 +7,16 @@ const Viewproducts = () => {
     const [products, setprducts] = useState([])
 
     useEffect(() => {
-        axios.get(`http://localhost:5000/mobileData`)
+        axios.get(`https://mobizone-json-api.onrender.com/mobileData`)
             .then((res) => {
-                    setprducts(res.data)
+                setprducts(res.data)
             })
             .catch((err) => console.log(err))
     })
-    const deleteproduct = (pid)=>{
+    const deleteproduct = (pid) => {
         axios.delete(`https://mobizone-json-api.onrender.com/mobileData/${pid}`)
-        .then(()=> alert(`Product Deleted`))
-        .catch((err)=> console.error(err))
+            .then(() => alert(`Product Deleted`))
+            .catch((err) => console.error(err))
     }
 
 
@@ -29,12 +29,12 @@ const Viewproducts = () => {
                     {products.map((product) => (
                         <div key={product.id} className="col-sm-6 col-xs-6 col-md-4 col-lg-3">
                             <div className="card shadow h-100 border-0">
-                                <img src={product.image} className="card-img-top img-fluid" alt={product.name} />
+                                <img src={product.image} className="card-img-top img-fluid" loading='lazy' alt={product.name} />
                                 <div className="card-body  text-center">
                                     <h5 className="card-title">{product.name}</h5>
                                     <p className="card-text text-muted">₹{product.price}</p>
                                     <div className='card-footer'>
-                                    <button className='btn btn-danger w-100' onClick={()=> deleteproduct(product.id)}>Delete</button>
+                                        <button className='btn btn-danger w-100' onClick={() => deleteproduct(product.id)}>Delete</button>
                                     </div>
                                 </div>
                             </div>

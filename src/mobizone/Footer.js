@@ -12,7 +12,7 @@ const Footer = () => {
                     <div className='row'>
                         <div className='col-3 footpara'>
                             <Link to={'/collection'}>
-                                <p>i Phone</p>
+                                <p>iPhone</p>
                             </Link>
                         </div>
                         <div className='col-3 footpara'>

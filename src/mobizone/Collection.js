@@ -42,7 +42,7 @@ const Collection = () => {
                     {products.map((product) => (
                         <div key={product.id} className="col-sm-6 col-xs-6 col-md-4 col-lg-3">
                             <div className="card shadow h-100 border-0">
-                                <img src={product.image} className="card-img-top img-fluid" alt={product.name} />
+                                <img src={product.image} className="card-img-top img-fluid" loading='lazy' alt={product.name} />
                                 <div className="card-body mt-auto  text-center">
                                     <h5 className="card-title">{product.name}</h5>
                                     <p className="card-text text-muted">₹{product.price}</p>

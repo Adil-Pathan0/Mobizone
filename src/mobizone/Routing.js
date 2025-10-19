@@ -11,12 +11,14 @@ import Welcome from './Admin/Welcome'
 import BuyNow from './BuyNow'
 import Viewproducts from './ViewProducts'
 import AdminLogin from './Admin/AdminLogin'
+import ViewEnquiries from './Admin/ViewEnquiries'
 
 const Routing = () => {
     return (
         <div>
             <Routes>
                 <Route path='/' Component={Home} />
+                <Route path='/Mobizone' Component={Home} />
                 <Route path='/collection' Component={Collection} />
                 <Route path='/contact' Component={ContactUs} />
                 <Route path='/buynow/:id' Component={BuyNow} />
@@ -27,6 +29,7 @@ const Routing = () => {
                     <Route path='' Component={Welcome} />
                     <Route path='addcollection' Component={AddCollection} />
                     <Route path='viewproducts' Component={Viewproducts} />
+                    <Route path='enquiry' Component={ViewEnquiries} />
                 </Route>
             </Routes>
         </div>
