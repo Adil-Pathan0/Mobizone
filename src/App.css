@@ -77,7 +77,7 @@
 }
 
 .wholefooter {
-  background: linear-gradient(to bottom, black 20%, rgb(27, 78, 109));
+  background: linear-gradient(to top, black 20%, rgb(27, 78, 109));
 }
 
 .footpara p {
