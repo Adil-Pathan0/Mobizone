@@ -1,7 +1,6 @@
 {
   "name": "myproject1",
   "version": "0.1.0",
-  "homepage": "https://adil-pathan0.github.io/Mobizone",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
